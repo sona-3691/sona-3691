@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Header */
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Toggle Link */
+  .toggle {
+    margin-top: 10px;
+    color: #007BFF;
+    cursor: pointer;
+  }
+  /* Mobile Media Query */
+@media screen and (max-width: 480px) {
+  .container {
+      width: 90%;
+      padding: 15px;
+  }
+
+  input {
+      font-size: 16px;
+  }
+
+  button {
+      font-size: 16px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+}
+
+
+
+
+
+
